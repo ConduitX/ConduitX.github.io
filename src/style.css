@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    display: flex;
     background-color: #0b1113;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -10,6 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: auto;
 }
 #site-name {
