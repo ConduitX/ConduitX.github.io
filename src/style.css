@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #0b1113;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*------------------ Header --------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+#site-name {
+    margin: auto 1.5em auto 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#logo {
+    height: 150px;
+
+}
+#nav-bar {
+    margin: auto 50px auto 0;
+    display: flex;
+    justify-content: center;
+    width: 10px;
+}
+#dropdown {
+    background-color: #002835;
+    border: 5px black solid;
+    border-radius: 15%;
+    height: 50px;
+}
+
+/*------------------ Body --------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-title {
+    margin: 0.5em;
+    text-align: center;
+    width: 50%;
+    color: aliceblue;
+    background-color: #040607;
+    border-radius: 15px;
+}
+.mid-text {
+    margin: 0.5em;
+    text-align: center;
+    width: 75%;
+    color: aliceblue;
+    background-color: #040607;
+    border-radius: 10px;
+}
+em {
+    color: #00c6ff;
+}
+#tron-loop-container {
+    display: flex;
+    justify-content: center;
+}
+#tron-loop {
+    width: 75%;
+}
+
+/*---------------- Footer ------------------*/
+footer {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+footer > h5 {
+    margin: 10px 0 10px 0;
+}
+footer > a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
