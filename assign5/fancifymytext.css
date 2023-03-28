@@ -1,0 +1,25 @@
+html {
+    color: aliceblue;
+    background-color: rgb(10, 10, 10);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 10px;
+    width: 40%;
+    border-top-style: dashed;
+    background-color: #002835;
+}
+
+legend {
+    color: aliceblue; 
+}
+
+textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 95%;
+}

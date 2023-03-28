@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/style.css"> 
+    <script src="src/script.js"></script>
     <title>Conduit X Test Website</title>
 </head>
 <header>
     <img src="img/logo.png" id="logo" alt="My Logo">
     <div id="site-name">Welcome to My Test Website</div>
     <div id="nav-bar">
-        <img src="img/dropdown.png" id="dropdown">
+        <img src="img/dropdown.png" id="dropdown" onclick="dropdownReveal()">
+        <div id="navlink-container">
+            <div id="navlinks" class="navcontent">
+                <a href="assign5/fancifymytext.html">
+                    <button class="navbutton">Assignment 5</button>
+                </a>
+            </div>
+        </div>
     </div>
 </header>
 <body>
@@ -21,6 +29,7 @@
     </div>
     <div class="mid-text">
         <p>Hopefully, after going through CSC 196W, I will have the knowledge necessary to update this page into a professional portfolio to show off my projects and my business name: <em>Conduit X Studios</em>. For now, enjoy a loop I made in Blender with the help of Youtube tutorials and online forums!</p>
+        <p>Click the dropdown arrow to view my completed assignments.</p>
     </div>
     <div id="tron-loop-container">
         <img src="img/tron.gif" id="tron-loop" alt="Digital Ship in a Tron Grid">
