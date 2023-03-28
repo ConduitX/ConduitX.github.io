@@ -89,7 +89,7 @@ footer {
 footer > h5 {
     margin: 10px 0 10px 0;
 }
-footer > a:visited {
+footer > a, a:visited {
     text-decoration: none;
     color: aliceblue;
 }
